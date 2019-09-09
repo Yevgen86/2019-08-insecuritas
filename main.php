@@ -1,14 +1,15 @@
 <?php ?>
     <html lang="en">
-    <head><title>Main Menu &ndash; Insecuritas</title>
+    <head>
+        <title>Main Menu &ndash; Insecuritas</title>
         <?php
             $lastContactRequest = null;
             require_once "include/common.php";
             require_once "include/common_head.php";
             require_once "include/last_contact_request.php";
         ?>
+        <link rel="stylesheet" href="css/mySTyle.css">
     </head>
-
     </html>
 
 <?php

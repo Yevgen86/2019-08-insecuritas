@@ -28,8 +28,10 @@ if (isset($_SESSION['authenticated_user'])) {
 ?>
 <!doctype html>
 <html lang="en">
-<head><title>Insecuritas Login</title>
+<head>
+    <title>Insecuritas Login</title>
     <?php require_once "include/common_head.php"; ?>
+    <link rel="stylesheet" href="/css/mySTyle.css">
 </head>
 <body>
 <h1>Login</h1>
@@ -47,7 +49,8 @@ if (isset($_SESSION['authenticated_user'])) {
     </p>
     <p>
         <label>Password
-            <input id="password" name="password" type="password" onchange="onInputChanged()" onkeyup="onInputChanged()"/>
+            <input id="password" name="password" type="password" onchange="onInputChanged()"
+                   onkeyup="onInputChanged()"/>
         </label>
     </p>
     <p><label>System
